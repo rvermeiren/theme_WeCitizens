@@ -8,6 +8,10 @@ Template: scratchpad
     padding: 105px 0 30px;
 }
 
+body {
+	background: #b8b8b8;
+	/* Fallback for when there is no custom background color defined. */ }
+
 
 header.fr { background: url(images/header-fr.jpg) 0 0 no-repeat; }
 header.en { background: url(images/header-en.jpg) 0 0 no-repeat; }
@@ -180,7 +184,8 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 }
 
 .main-navigation ul {
-	display: block;
+	display: inline-block;
+
 }
 
 .menu-item-has-children > a:after {
@@ -205,6 +210,50 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	-ms-transform: rotate(0);
 	transform: rotate(0);
 }
+
+#menu { width: auto; height:4.75em; float:left; position: relative; list-style:none; vertical-align: middle; padding: 0em; left: 48.5%;margin-top: 0.2em;}
+#menu li { float:left; height:4.75em; position: relative; vertical-align: middle;  color:#FFFFFF; margin: auto; padding-left: 1em; right: 50%;}
+/*#menu li a { display: table-cell; height:5.1em; vertical-align: middle; color:#FFFFFF; text-decoration:none; font: 1.3em Arial, Helvetica; text-transform:uppercase; }*/
+/*#menu li:hover > a { color:#FFFFFF; background-color: none; border-bottom: solid 0.4em #BD1622; }*/
+
+/*#menu li a:hover { color:#FFFFFF; }*/
+
+/*#menu li.current-menu-ancestor > a { background-color:#BD1622;}*/
+
+
+/*#menu li:hover > ul { display: block; }*/
+#menu ul { list-style: none; margin: 0; padding: 0; display: none; position: absolute; top: 30px; left: 0; z-index: 99999; }
+#menu ul li { float: none; margin: 0; padding: 0; display: block; background-color:#333; border-top:1px dotted #999; width:160px; }
+/*#menu ul li:nth-child(1) { border-top:none; }*/
+#menu ul li.current-menu-item  ul li a { text-decoration:none; }
+/*#menu ul li a { display: block; float: none; padding: 10px; height: auto; line-height: 1;  }*/
+/*#menu ul li a:hover { background-color:#444; text-decoration:none; }*/
+/*
+li.menu-item > a > span {
+  margin: 0em 0em 0em -0.5em;
+}*/
+/*
+li.menu-item-9356, li.menu-item-288 {
+  padding: 0em 10em 0em 10em;
+}*/
+/*
+li.menu-item-9356 > a, li.menu-item-288 > a {
+	display: block;
+  position: absolute;
+  margin: 0.5em 2em 0em 1em;
+  line-height: 10em;
+}*/
+/*
+li.menu-item-9356 > a > img {
+}*/
+/*
+#menu li.menu-item-9356:hover > a,#menu li.menu-item-288:hover > a {
+  	border-bottom: solid 0.4em #BD1622;
+  	height: 4.5em;
+}*/
+
+
+
 @media only screen and (max-width: 1000px) {
 
 	#masthead .site-branding {

@@ -30,7 +30,11 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="wrap">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'scratchpad' ); ?></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'scratchpad' ); ?></button> -->
+				<?php if (ICL_LANGUAGE_CODE == 'fr') wp_nav_menu( array('container' => false, 'theme_location' => 'headermenu', 'menu' => 'Top_FR', 'menu_id' => 'menu' )); ?>
+				<?php if (ICL_LANGUAGE_CODE == 'en') wp_nav_menu( array('container' => false, 'theme_location' => 'headermenu', 'menu' => 'Top_EN', 'menu_id' => 'menu' )); ?>
+				<?php if (ICL_LANGUAGE_CODE == 'nl') wp_nav_menu( array('container' => false, 'theme_location' => 'headermenu', 'menu' => 'Top_DE', 'menu_id' => 'menu' )); ?>
+				<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
 			</div><!-- .wrap -->
 		</nav><!-- #site-navigation -->
 
