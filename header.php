@@ -30,18 +30,29 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="wrap">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'scratchpad' ); ?></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'scratchpad' ); ?></button> -->
+				<?php if (ICL_LANGUAGE_CODE == 'fr') wp_nav_menu( array('theme_location' => 'primary', 'menu' => 'Top_FR', 'menu_id' => 'primary-menu' )); ?>
+				<?php if (ICL_LANGUAGE_CODE == 'en') wp_nav_menu( array('container' => false, 'theme_location' => 'headermenu', 'menu' => 'Top_EN', 'menu_id' => 'primary-menu' )); ?>
+				<?php if (ICL_LANGUAGE_CODE == 'nl') wp_nav_menu( array('container' => false, 'theme_location' => 'headermenu', 'menu' => 'Top_DE', 'menu_id' => 'primary-menu' )); ?>
+				<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
+				<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
 			</div><!-- .wrap -->
 		</nav><!-- #site-navigation -->
 
 		<div class="site-branding">
 			<div class="wrap">
 				<div class="header-container">
+
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<?php if (ICL_LANGUAGE_CODE == 'fr') echo '<img src="wp-content/themes/wecitizens_new/images/header-fr.jpg" width="100%" height="auto">'; ?>
-						<?php if (ICL_LANGUAGE_CODE == 'en') echo '<img src="wp-content/themes/wecitizens_new/images/header-en.jpg" width="100%" height="auto">'; ?>
-						<?php if (ICL_LANGUAGE_CODE == 'nl') echo '<img src="wp-content/themes/wecitizens_new/images/header-nl.jpg" width="100%" height="auto">'; ?>
+						<?php if (ICL_LANGUAGE_CODE == 'fr') echo '<img src="'.esc_url( get_site_url() ).'/wp-content/themes/wecitizens_new/images/header-fr.jpg" width="100%" height="auto">'; ?>
+						<?php if (ICL_LANGUAGE_CODE == 'en') echo '<img src="'.esc_url( get_site_url() ).'/wp-content/themes/wecitizens_new/images/header-en.jpg" width="100%" height="auto">'; ?>
+						<?php if (ICL_LANGUAGE_CODE == 'nl') echo '<img src="'.esc_url( get_site_url() ).'/wp-content/themes/wecitizens_new/images/header-nl.jpg" width="100%" height="auto">'; ?>
 					</a>
+					<div id="social-icons">
+						<a href="https://www.facebook.com/wecitizens.be">
+							<img src="<?php echo esc_url( get_site_url() ); ?>/wp-content/themes/wecitizens_new/images/fb_icon/FB-logo-50.png" width="30px" height="auto">
+						</a>
+					</div>
 					<nav id="languages">
 						<ul>
 						<?php

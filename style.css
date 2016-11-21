@@ -8,6 +8,10 @@ Template: scratchpad
     padding: 105px 0 30px;
 }
 
+body {
+	background: #b8b8b8;
+	/* Fallback for when there is no custom background color defined. */ }
+
 
 header.fr { background: url(images/header-fr.jpg) 0 0 no-repeat; }
 header.en { background: url(images/header-en.jpg) 0 0 no-repeat; }
@@ -17,35 +21,48 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	background-color: #fff;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	display: inline-block;
-	margin-bottom: 20px;
-	padding: 20px;
+	margin-bottom: 5px;
+	padding: 0px;
 	position: relative;
 }
 #branding {
     text-indent: -9999px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 
 }
 
 #header-container{
 	position: relative;
 	width: 80%;
-	height: 200px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#social-icons{
+	position: relative;
+	top : -50px;
+	/*bottom: 50px;*/
+	right: 10px;
+	width: auto;
+	height: auto;
+	text-align: right;
+	margin-bottom: -50px;
 }
 
 #languages {
 	position:relative;
-	top: 0;
+	top: 0px;
 	right:0;
 	width:auto;
-	height:15px;
+	height:auto;
 	line-height:0px;
 	text-align: right;
+	margin-bottom: -30px;
 }
 #languages ul { list-style:none; margin:0; padding:0; }
 #languages ul li { display:inline-block; margin: 0; padding-right: 0;}
 #languages ul li a { outline:none; border:none; margin-left:1em; }
-#languages ul li img { margin:5px; padding:0; vertical-align:middle; width: 25px; height: auto;}
+#languages ul li img { margin:10px; padding:0; vertical-align:middle; width: 25px; height: auto;}
 
 
 /*--------------------------------------------------------------
@@ -96,12 +113,16 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	transition: color 0.2s;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
+	font-size: 13pt;
+
 }
 
 .main-navigation a:hover,
 .main-navigation li.focus > a {
 	color: #5e6f71;
 }
+
+
 
 .main-navigation ul ul {
 	float: left;
@@ -180,7 +201,8 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 }
 
 .main-navigation ul {
-	display: block;
+	display: inline-block;
+
 }
 
 .menu-item-has-children > a:after {
@@ -205,6 +227,10 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	-ms-transform: rotate(0);
 	transform: rotate(0);
 }
+
+
+
+
 @media only screen and (max-width: 1000px) {
 
 	#masthead .site-branding {
@@ -219,6 +245,7 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	.main-navigation ul {
 		display: none;
 	}
+
 
 	.menu-toggle,
 	.main-navigation.toggled ul {
@@ -268,12 +295,33 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 		text-align: left;
 	}
 
+	/*.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  /*list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+}*/
+
 	.main-navigation ul ul {
 		background: transparent;
 		box-shadow: none;
 		float: none;
+		height: 0px;
+		list-style-type: none;
+		overflow: hidden;
+		padding: 0;
 		margin-left: 20px;
 		position: static;
+
+		/*Animation*/
+  		-webkit-transition: height 1s ease;
+     	-moz-transition: height 1s ease;
+       	-o-transition: height 1s ease;
+      	-ms-transition: height 1s ease;
+        transition: height 1s ease;
 	}
 
 	.main-navigation ul ul a {
@@ -286,6 +334,7 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	.main-navigation ul ul a:hover {
 		background: transparent;
 		color: #5e6f71;
+		height: 93px;
 	}
 
 	.main-navigation ul ul:before {
@@ -295,6 +344,8 @@ header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 	.menu-item-has-children > a:after {
 		display: none;
 	}
+
+
 }
 
 @media only screen and (max-width: 800px) {
