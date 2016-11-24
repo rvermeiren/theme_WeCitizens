@@ -18,6 +18,7 @@ header.fr { background: url(images/header-fr.jpg) 0 0 no-repeat; }
 header.en { background: url(images/header-en.jpg) 0 0 no-repeat; }
 header.nl { background: url(images/header-nl.jpg) 0 0 no-repeat; }
 
+
 .header-image-contain {
 	background-color: #fff;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
