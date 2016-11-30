@@ -898,7 +898,7 @@ a:active {
 #masthead {
 	position: relative;
 	text-align: center;
-	z-index: 4;
+	z-index: 1000;
 }
 
 #masthead .site-branding {
@@ -3828,7 +3828,6 @@ iframe[src*='bandcamp'] {
 }
 
 /* Third Widgets */
-
 .widget:nth-of-type(4n+3) {
 	background-color: #efe8be;
 	background-image: linear-gradient(90deg, #dfd9b4 1px, transparent 1px), linear-gradient(0deg, #dfd9b4 1px, transparent 1px);
