@@ -60,7 +60,7 @@
 						    $languages = icl_get_languages('skip_missing=0');
 						    if (1 < count($languages)) {
 						        foreach ($languages as $l) {
-						            echo '<li><a href="' . $l['url'] . '"><img src="' . $l['country_flag_url'] . '" alt="' . $l['language_code'] . '" /></a></li>';
+						            echo '<li><a href="' . $l['url'] . '">'. $l['language_code'] .'</a></li>';
 						        }
 						    }
 						}
