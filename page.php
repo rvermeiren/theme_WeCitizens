@@ -26,6 +26,35 @@ get_header(); ?>
 			?>
 
 		</main><!-- #main -->
+
+		<table class="table-footer" border="0">
+			<tbody class="tbody-footer">
+				<tr>
+					<td class="td-footer">  
+						<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+							<a>What you need to know about WeCitizens:</a>
+							<details>
+							  <summary>You want to locate politicians on the political spectrum</summary>
+							  <p>Text you see after expansion.</p>
+							</details>
+							<details>
+							  <summary>Get insight about political and fiscal issues</summary>
+							  <p>Text you see after expansion.</p>
+							</details>
+							<details>
+							  <summary>The best investment you can do: donate</summary>
+							  <p>Text you see after expansion.</p>
+							</details>
+							<details>
+							  <summary>You can contribute to transparency in public management</summary>
+							  <p>Text you see after expansion.</p>
+							</details>
+						<?php endif; ?>
+					</td>
+				</tr>
+
+		</table>
+
 	</div><!-- #primary -->
 
 <?php

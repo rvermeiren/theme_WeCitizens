@@ -43,6 +43,7 @@ Template: scratchpad
 	10.12 Single Posts
 	10.13 Post Flair
 	10.14 Comments
+	10.15 Narration
 11.0 Pages
 	11.1 Error Pages
 	11.2 Archive Pages
@@ -2644,6 +2645,121 @@ div#jp-relatedposts h3.jp-relatedposts-headline em {
 #respond .comment-form-fields div.comment-form-field {
 	float: none;
 	width: 100%;
+}
+
+/*--------------------------------------------------------------
+10.15 Narration wecitizens
+--------------------------------------------------------------*/
+
+div.phptemplate { 
+  width: 100%; 
+  text-align: center; 
+  margin: 5em 0em; 
+}
+.phptemplate h1 { 
+  margin: 0em 2em 0em 2.6em; 
+  width: 94%;
+}
+
+table.narration { 
+  margin: 0em 2em 0em 2em; 
+  width: 94%;
+}  
+th.narrationheader { 
+  padding: 0.5em 0em 0.5em 0em;
+  margin: 0em; 
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.2em; 
+  color: #444444; 
+}
+th.narrationheader h2{
+	font-size: 5.2em; 
+} 
+td.narrationimage { 
+  width: 35%;  
+  padding: 1.7em 1.5em 0em 1.5em;
+}
+div.narrationicon { 
+  margin-top: -1em; 
+  width: auto;  
+  padding: 0em;
+  vertical-align: middle;
+  vertical-align: top;
+}
+td.narrationparagraph { 
+  padding: 1.5em 1.5em 0.5em 1em; 
+  vertical-align: text-top; 
+  text-align: left;
+  line-height: 1.3em; 
+  font-weight: lighter; 
+  font-size: 0.9em; 
+  color: #999999; 
+}
+td.narrationbutton, td.narrationlink { 
+  display: block;
+  text-decoration: none;
+  margin: 1em 4.5em 0em 4.5em; 
+  border: solid 0.075em #BD1622; 
+  border-radius: 0.6em ; 
+  background-color: #eeeeee; 
+  padding: 0.1em 0em 0.1em 0em; 
+  vertical-align: top; 
+  text-align: center;  
+  font-weight: lighter; 
+  font-size: 1em; 
+  /*color: #888888;*/
+  color: #BD1622;
+  vertical-align: text-top; 
+}
+td.narrationlink { 
+  text-decoration: none;
+  font-size: 1em; 
+  line-height: 2em; 
+}
+table.narrationencart { 
+  width: 92%;
+	margin: 1em 1em 1em 1em	;
+  border-radius: 8px ; 
+  border: none 0.1em #999999; 
+  background: #777777;
+  padding: 1em 1em 1em 1em;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 1.5em;
+  color: #FFFFFF; 
+}
+img.narrationencartimg { 
+  margin: 0em 1em 0em 0em ; 
+  float: left ;
+  position: relative ;
+}
+td.narrationencartbig { 
+  vertical-align: middle;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  line-height: 1em;
+  font-size: 3em; 
+ 	font-weight: bold;  
+}
+td.narrationencartnormal { 
+  vertical-align: middle;
+  width: 75%;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  line-height: 1.8em;
+  font-size: 1em; 
+}
+td.narrationencartsmall { 
+  vertical-align: middle;
+  width: 80%;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  line-height: 1.6em;
+  font-size: 1em; 
+}
+a.narrationencart{ 
+	color: yellow;
+}
+a.narrationencart:hover{ 
+	color: white;
 }
 
 /*--------------------------------------------------------------
