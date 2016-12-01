@@ -2186,7 +2186,7 @@ body:not(.single) .format-video .entry-meta a {
 
 .page #primary article.page .entry-content,
 .page #primary article.page .entry-footer {
-	padding: 0 35px;
+	padding: 0 70px;
 }
 
 .single #primary article.post .tags-links,
@@ -2221,7 +2221,7 @@ body:not(.single) .format-video .entry-meta a {
 	text-decoration: underline;
 }
 
-/*.single #primary article.post:before,
+.single #primary article.post:before,
 .single #primary article.post:after,
 .single #primary article.jetpack-portfolio:before,
 .single #primary article.jetpack-portfolio:after,
@@ -2237,7 +2237,7 @@ body:not(.single) .format-video .entry-meta a {
 	position: absolute;
 	width: 150px;
 	z-index: 4;
-}*/
+}
 
 /*.single #primary article.post:before,
 .single #primary article.jetpack-portfolio:before,
@@ -2775,6 +2775,51 @@ a.narrationencart{
 a.narrationencart:hover{
 	color: white;
 }
+<<<<<<< HEAD
+=======
+
+/*--------------------------------------------------------------
+10.17 Mail form fields
+--------------------------------------------------------------*/
+
+#mymail-email-0 !imortant{
+	font-size: 1em !important;
+	height: 40px !important;
+	padding: 0px !important;
+}
+
+#mymail-firstname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-lastname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-gender-0 {
+	font-size: 1em !important;
+	height: 42px;
+}
+
+::-webkit-input-placeholder {
+	font-size: 16px;
+	text-align: center;
+}
+
+.mymail-language-wrapper label, .mymail-gender-wrapper label {
+	font-size: 1.4em !important;
+}
+
+.mymail-form .mymail-wrapper {
+    text-align: center !important;
+}
+
+.mymail-form-0 .submit-button {
+	margin:auto !important;
+}
+>>>>>>> 4a5159210503df7a2ce90bf403946d5aac347a55
 
 /*--------------------------------------------------------------
 11.0 Pages
