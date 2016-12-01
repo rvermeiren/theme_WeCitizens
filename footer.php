@@ -25,6 +25,8 @@
 
 			<div class="footer-container">
 
+			<?php if (ICL_LANGUAGE_CODE != 'en') : ?>
+
 				<div class="div-footer">
 					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
 						<a title="Votre collaboration" href="/?page_id=35">
@@ -42,12 +44,6 @@
 							</div>
 					 	 </a>  
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a title="Votre collaboration" href="/?page_id=8399">
-			      		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Faites un don" width="59" height="53" />
-					    <br>Donate now
-					  	</a>    
-					<?php endif; ?>-->
 				</div>
 
 				<div class="div-footer">
@@ -67,13 +63,6 @@
 							</div>
 						</a>   
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?> 
-					<a href="/?page_id=8378">  
-						<div class="footerbutton">
-					    <span class="aligncenter footerbutton"><img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/panel.jpg" alt="Participez à nos panels" width="59" height="53" />
-					    <br>Participate to our panels
-					</a>   
-					<?php endif; ?> -->
 				</div>
 
 				<div class="div-footer">
@@ -93,12 +82,6 @@
 				        	</div>
 					  	</a>  
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a href="/?page_id=8618">
-				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Soutenez une campagne" width="59" height="53" />
-				        <br>Support our campaignes
-						</a>  
-					<?php endif; ?> -->
 				</div>
 
 				<div class="div-footer">
@@ -118,12 +101,6 @@
 			      	 	</div>
 					 	</a>        
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a href="/?page_id=8401">
-				      	 <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Souscrivez à notre newsletter" width="59" height="53" />
-				      	 <br>Subscribe to our newsletter
-						</a>
-					<?php endif; ?>-->
 				</div>
 
 				<div class="div-footer">
@@ -143,12 +120,6 @@
 				        	</div>
 						</a>
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a href="/?page_id=1313">
-				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Répertoire politique" width="59" height="53" />
-				        <br>Political Directory<br><small>Get info about a political actor</small>
-						</a>
-					<?php endif; ?>-->
 				</div>
 
 				<div class="div-footer">
@@ -168,12 +139,6 @@
 				        	</div>
 						</a>
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a href="/?page_id=1079">
-				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/gps.jpg" alt="GPS électoral" width="59" height="53" />
-				        <br>Electoral GPS<br><small>Who think like you?</small>
-						</a>
-					<?php endif; ?> -->
 				</div>
 
 				<div class="div-footer">
@@ -191,13 +156,8 @@
 				        	</div>
 						</a>  
 					<?php endif; ?>
-					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-						<a href="/?page_id=#">
-				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/screening.jpg" alt="Political screening" width="59" height="53" /><br>Political screening<br><small>Who thinks what?</small>
-						</a>
-					<?php endif; ?>   -->
 				</div>
-
+			<?php endif; ?>
 			</div>
 
 
