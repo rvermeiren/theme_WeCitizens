@@ -1148,7 +1148,7 @@ a:active {
 	height: 96%;
 	/*background-color: #d4d4d4;*/
 	clear:both;
-	overflow:hidden; 
+	overflow:hidden;
 	text-align: center ;
 	/*padding-right: 160px;*/
 }
@@ -2221,7 +2221,7 @@ body:not(.single) .format-video .entry-meta a {
 	text-decoration: underline;
 }
 
-.single #primary article.post:before,
+/*.single #primary article.post:before,
 .single #primary article.post:after,
 .single #primary article.jetpack-portfolio:before,
 .single #primary article.jetpack-portfolio:after,
@@ -2237,7 +2237,7 @@ body:not(.single) .format-video .entry-meta a {
 	position: absolute;
 	width: 150px;
 	z-index: 4;
-}
+}*/
 
 /*.single #primary article.post:before,
 .single #primary article.jetpack-portfolio:before,
@@ -2665,42 +2665,43 @@ div#jp-relatedposts h3.jp-relatedposts-headline em {
 10.15 Narration wecitizens
 --------------------------------------------------------------*/
 
-div.phptemplate { 
-  width: 100%; 
-  text-align: center; 
-  margin: 5em 0em; 
+div.phptemplate {
+  width: 100%;
+  text-align: center;
+  margin: 5em 0em;
 }
-.phptemplate h1 { 
-  margin: 0em 2em 0em 2.6em; 
+.phptemplate h1 {
+  margin: 0em 2em 0em 2.6em;
   width: 94%;
 }
 
-table.narration { 
-  margin: 0em 2em 0em 2em; 
+table.narration {
+  margin: 0em 2em 0em 2em;
   width: 94%;
-}  
-th.narrationheader { 
+}
+th.narrationheader {
   padding: 0.5em 0em 0.5em 0em;
-  margin: 0em; 
+  margin: 0em;
   text-align: center;
   font-weight: lighter;
-  font-size: 0.2em; 
-  color: #444444; 
+  font-size: 0.2em;
+  color: #444444;
 }
 th.narrationheader h2{
-	font-size: 5.2em; 
-} 
-td.narrationimage { 
-  width: 35%;  
+	font-size: 5.2em;
+}
+td.narrationimage {
+  width: 35%;
   padding: 1.7em 1.5em 0em 1.5em;
 }
-div.narrationicon { 
-  margin-top: -1em; 
-  width: auto;  
+div.narrationicon {
+  margin-top: -1em;
+  width: auto;
   padding: 0em;
   vertical-align: middle;
   vertical-align: top;
 }
+<<<<<<< HEAD
 td.narrationparagraph { 
   padding: 1.5em 0.5em 0.5em 0.5em; 
   vertical-align: text-top; 
@@ -2709,70 +2710,84 @@ td.narrationparagraph {
   font-weight: lighter; 
   font-size: 0.9em; 
   color: #999999; 
+=======
+td.narrationparagraph {
+  padding: 1.5em 1.5em 0.5em 1em;
+  vertical-align: text-top;
+  text-align: left;
+  line-height: 1.3em;
+  font-weight: lighter;
+  font-size: 0.9em;
+  color: #999999;
+>>>>>>> f34830827cf23240f806d64cdde491e404e3fee2
 }
+<<<<<<< HEAD
+td.narrationbutton, td.narrationlink {
+=======
 td.narrationbutton a, td.narrationlink { 
+>>>>>>> dde99df6eeb9929ad4bd2b6fc9af41fb03ed93bd
   display: block;
   text-decoration: none;
-  margin: 1em 4.5em 0em 4.5em; 
-  border: solid 0.075em #BD1622; 
-  border-radius: 0.6em ; 
-  background-color: #eeeeee; 
-  padding: 0.1em 0em 0.1em 0em; 
-  vertical-align: top; 
-  text-align: center;  
-  font-weight: lighter; 
-  font-size: 1em; 
+  margin: 1em 4.5em 0em 4.5em;
+  border: solid 0.075em #BD1622;
+  border-radius: 0.6em ;
+  background-color: #eeeeee;
+  padding: 0.1em 0em 0.1em 0em;
+  vertical-align: top;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1em;
   /*color: #888888;*/
   color: #BD1622;
-  vertical-align: text-top; 
+  vertical-align: text-top;
 }
-td.narrationlink { 
+td.narrationlink {
   text-decoration: none;
-  font-size: 1em; 
-  line-height: 2em; 
+  font-size: 1em;
+  line-height: 2em;
 }
-table.narrationencart { 
+table.narrationencart {
   width: 92%;
 	margin: 1em 1em 1em 1em	;
-  border-radius: 8px ; 
-  border: none 0.1em #999999; 
+  border-radius: 8px ;
+  border: none 0.1em #999999;
   background: #777777;
   padding: 1em 1em 1em 1em;
   vertical-align: middle;
   text-align: left;
   line-height: 1.5em;
-  color: #FFFFFF; 
+  color: #FFFFFF;
 }
-img.narrationencartimg { 
-  margin: 0em 1em 0em 0em ; 
+img.narrationencartimg {
+  margin: 0em 1em 0em 0em ;
   float: left ;
   position: relative ;
 }
-td.narrationencartbig { 
+td.narrationencartbig {
   vertical-align: middle;
   padding: 0.4em 0.4em 0.4em 0.4em;
   line-height: 1em;
-  font-size: 3em; 
- 	font-weight: bold;  
+  font-size: 3em;
+ 	font-weight: bold;
 }
-td.narrationencartnormal { 
+td.narrationencartnormal {
   vertical-align: middle;
   width: 75%;
   padding: 0.4em 0.4em 0.4em 0.4em;
   line-height: 1.8em;
-  font-size: 1em; 
+  font-size: 1em;
 }
-td.narrationencartsmall { 
+td.narrationencartsmall {
   vertical-align: middle;
   width: 80%;
   padding: 0.4em 0.4em 0.4em 0.4em;
   line-height: 1.6em;
-  font-size: 1em; 
+  font-size: 1em;
 }
-a.narrationencart{ 
+a.narrationencart{
 	color: yellow;
 }
-a.narrationencart:hover{ 
+a.narrationencart:hover{
 	color: white;
 }
 /*--------------------------------------------------------------
@@ -2791,6 +2806,47 @@ a.narrationencart:hover{
 	margin: 1em;
 }
 
+
+/*--------------------------------------------------------------
+10.17 Mail form fields
+--------------------------------------------------------------*/
+
+#mymail-email-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-firstname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-lastname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-gender-0 {
+	font-size: 1em !important;
+	height: 42px;
+}
+
+::-webkit-input-placeholder {
+	font-size: 16px;
+	text-align: center;
+}
+
+.mymail-language-wrapper label, .mymail-gender-wrapper label {
+	font-size: 1.5em !important;
+}
+
+.mymail-form .mymail-wrapper {
+    text-align: center !important;
+}
+
+.mymail-form-0 .submit-button {
+	margin:auto !important;
+}
 
 /*--------------------------------------------------------------
 11.0 Pages
