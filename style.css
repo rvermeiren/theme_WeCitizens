@@ -44,6 +44,10 @@ Template: scratchpad
 	10.13 Post Flair
 	10.14 Comments
 	10.15 Narration
+	10.16 User cases
+	10.17 Mail form fields
+	10.18 Archives
+	10.19 Page not found
 11.0 Pages
 	11.1 Error Pages
 	11.2 Archive Pages
@@ -2771,6 +2775,7 @@ td.narrationencartsmall {
 }
 a.narrationencart{
 	color: yellow;
+	text-decoration: none;
 }
 a.narrationencart:hover{
 	color: white;
@@ -2864,7 +2869,7 @@ a.expandlink {
 }
 
 /*--------------------------------------------------------------
-10.16 Archives wecitizens
+10.18 Archives wecitizens
 --------------------------------------------------------------*/
 .archives-container {
 	background-color: rgba(255, 255, 255, 0.95);
@@ -2880,7 +2885,7 @@ a.expandlink {
 }
 
 /*--------------------------------------------------------------
-10.16 Page not found
+10.19 Page not found
 --------------------------------------------------------------*/
 
 .notfound-container {
