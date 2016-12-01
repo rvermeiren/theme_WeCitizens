@@ -2213,7 +2213,7 @@ body:not(.single) .format-video .entry-meta a {
 	z-index: 4;
 }
 
-.single #primary article.post:before,
+/*.single #primary article.post:before,
 .single #primary article.jetpack-portfolio:before,
 .single #primary article.attachment:before,
 .page #primary article.page:before {
@@ -2222,9 +2222,9 @@ body:not(.single) .format-video .entry-meta a {
 	-webkit-transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
-}
+}*/
 
-.single #primary article.post:after,
+/*.single #primary article.post:after,
 .single #primary article.jetpack-portfolio:after,
 .single #primary article.attachment:after,
 .page #primary article.page:after {
@@ -2233,7 +2233,7 @@ body:not(.single) .format-video .entry-meta a {
 	-webkit-transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
-}
+}*/
 
 .single #primary .author-info {
 	background-color: #e0e6e7;
@@ -3291,9 +3291,9 @@ iframe[src*='bandcamp'] {
 	background-color: rgba(255, 255, 255, 0.4);
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	color: rgba(51, 51, 51, 0.5);
-	font-size: 90%;
+	font-size: 100%;
 	margin: 0 0 1.5em;
-	padding: 40px;
+	padding: 20px;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
 }
@@ -3429,6 +3429,35 @@ iframe[src*='bandcamp'] {
 .widget_recent_comments ul ul li:last-child,
 .widget_rss ul ul li:last-child {
 	padding-bottom: 0;
+}
+
+/*Widget - WeCitizens*/
+.widget_button_we{
+	background-color: #f44336; /* Red */
+    border: none;
+	width: 90%;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+.widget_we lu{
+	list-style: none;
+	margin: 0 0 0 0 !important;
+}
+
+.widget_we li{
+	list-style: none;
+	margin-left: -40px !important;
+}
+
+.widget_we_citizens_tools_widget{
+	padding: 20px;
 }
 
 /* Widget - Akismet */
