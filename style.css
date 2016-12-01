@@ -2710,7 +2710,7 @@ td.narrationparagraph {
   font-size: 0.9em; 
   color: #999999; 
 }
-td.narrationbutton, td.narrationlink { 
+td.narrationbutton a, td.narrationlink { 
   display: block;
   text-decoration: none;
   margin: 1em 4.5em 0em 4.5em; 
@@ -2775,6 +2775,22 @@ a.narrationencart{
 a.narrationencart:hover{ 
 	color: white;
 }
+/*--------------------------------------------------------------
+10.16 User cases wecitizens
+--------------------------------------------------------------*/
+.uc-container {
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	clear:both;
+	overflow:hidden;
+	
+}
+
+.div-uc {
+	padding: : 1em;
+	margin: 1em;
+}
+
 
 /*--------------------------------------------------------------
 10.17 Mail form fields
