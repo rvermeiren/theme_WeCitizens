@@ -16,12 +16,11 @@
 
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-
-		<div></div>
-
-		<!-- lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+		<!-- User cases footer -->
 
 		<div class="wrap">
+
+			<!--  -->
 
 			<table class="table-footer" border="0"> <!-- FAIRE EN SORTE QUE CA SOIT CONTENU DANS LA LARGEUR DU CONTENT -->
 				<tbody class="tbody-footer">
