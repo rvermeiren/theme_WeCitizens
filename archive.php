@@ -3,9 +3,9 @@
 Template Name: Archives
 */
 get_header(); ?>
-	<div id="primary" class="content-area">
+	<div id="primary" class="archives-container">
 		<main id="main" class="site-main" role="main">
-			<div class="entry-content">
+			<div class="archives-uc">
 				<?php the_post(); ?>
 
 				<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -23,35 +23,6 @@ get_header(); ?>
 				</ul>
 			</div>
 		</main><!-- #main -->
-
-		<table class="table-footer" border="0">
-			<tbody class="tbody-footer">
-				<tr>
-					<td class="td-footer">
-						<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-							<a>What you need to know about WeCitizens:</a>
-							<details>
-							  <summary>You want to locate politicians on the political spectrum</summary>
-							  <p>Text you see after expansion.</p>
-							</details>
-							<details>
-							  <summary>Get insight about political and fiscal issues</summary>
-							  <p>Text you see after expansion.</p>
-							</details>
-							<details>
-							  <summary>The best investment you can do: donate</summary>
-							  <p>Text you see after expansion.</p>
-							</details>
-							<details>
-							  <summary>You can contribute to transparency in public management</summary>
-							  <p>Text you see after expansion.</p>
-							</details>
-						<?php endif; ?>
-					</td>
-				</tr>
-
-		</table>
-
 	</div><!-- #primary -->
 
 <?php
