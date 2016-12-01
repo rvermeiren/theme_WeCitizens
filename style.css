@@ -1147,15 +1147,16 @@ a:active {
 	height: 96%;
 	/*background-color: #d4d4d4;*/
 	clear:both;
-	overflow:hidden;
+	overflow:hidden; 
 	text-align: center ;
+	/*padding-right: 160px;*/
 }
 
 .div-footer {
 	background-color: white;
 	border-radius: 15px ;
 	display: inline-block;
-	height: 170px;
+	height: 135px;
 	margin: 1em;
 	padding: 1em;
 }
