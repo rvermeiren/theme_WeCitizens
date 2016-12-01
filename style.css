@@ -2186,7 +2186,7 @@ body:not(.single) .format-video .entry-meta a {
 
 .page #primary article.page .entry-content,
 .page #primary article.page .entry-footer {
-	padding: 0 70px;
+	padding: 0 30px;
 }
 
 .single #primary article.post .tags-links,
@@ -2702,10 +2702,10 @@ div.narrationicon {
   vertical-align: top;
 }
 td.narrationparagraph { 
-  padding: 1.5em 1.5em 0.5em 1em; 
+  padding: 1.5em 0.5em 0.5em 0.5em; 
   vertical-align: text-top; 
   text-align: left;
-  line-height: 1.3em; 
+  line-height: 1.2em; 
   font-weight: lighter; 
   font-size: 0.9em; 
   color: #999999; 
