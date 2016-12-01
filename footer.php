@@ -17,10 +17,6 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
-		<div></div>
-
-		<!-- lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
-
 		<div class="wrap">
 
 			<div class="footer-container">
