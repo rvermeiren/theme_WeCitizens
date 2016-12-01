@@ -2186,7 +2186,7 @@ body:not(.single) .format-video .entry-meta a {
 
 .page #primary article.page .entry-content,
 .page #primary article.page .entry-footer {
-	padding: 0 70px;
+	padding: 0 35px;
 }
 
 .single #primary article.post .tags-links,
