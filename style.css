@@ -2792,12 +2792,14 @@ a.narrationencart:hover{
 	margin: 1em;
 }
 
+=======
+>>>>>>> f3437857d6eb0cfe9ad4526838ea8202c544a0ae
 
 /*--------------------------------------------------------------
 10.17 Mail form fields
 --------------------------------------------------------------*/
 
-#mymail-email-0 !imortant{
+#mymail-email-0 {
 	font-size: 1em !important;
 	height: 40px !important;
 	padding: 0px !important;
@@ -2824,7 +2826,7 @@ a.narrationencart:hover{
 }
 
 .mymail-language-wrapper label, .mymail-gender-wrapper label {
-	font-size: 1.4em !important;
+	font-size: 1.5em !important;
 }
 
 .mymail-form .mymail-wrapper {
@@ -2834,7 +2836,6 @@ a.narrationencart:hover{
 .mymail-form-0 .submit-button {
 	margin:auto !important;
 }
->>>>>>> 4a5159210503df7a2ce90bf403946d5aac347a55
 
 /*--------------------------------------------------------------
 11.0 Pages
