@@ -2777,6 +2777,47 @@ a.narrationencart:hover{
 }
 
 /*--------------------------------------------------------------
+10.17 Mail form fields
+--------------------------------------------------------------*/
+
+#mymail-email-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-firstname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-lastname-0 {
+	font-size: 1em;
+	height: 40px;
+}
+
+#mymail-gender-0 {
+	font-size: 1em !important;
+	height: 42px;
+}
+
+::-webkit-input-placeholder {
+	font-size: 16px;
+	text-align: center;
+}
+
+.mymail-language-wrapper label, .mymail-gender-wrapper label {
+	font-size: 1.5em !important;
+}
+
+.mymail-form .mymail-wrapper {
+    text-align: center !important;
+}
+
+.mymail-form-0 .submit-button {
+	margin:auto !important;
+}
+
+/*--------------------------------------------------------------
 11.0 Pages
 --------------------------------------------------------------*/
 
