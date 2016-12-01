@@ -2876,7 +2876,7 @@ a.expandlink {
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	clear:both;
 	overflow:hidden;
-	
+
 }
 
 .archives-uc {
@@ -4614,21 +4614,21 @@ iframe[src*='bandcamp'] {
 		text-align: left;
 	}
 
-	/*.menu-item ul {
-  background: #fff;
-  font-size: 13px;
-  line-height: 30px;
-  height: 0px; /*Collapses the menu*/
-  /*list-style-type: none;
-  overflow: hidden;
-  padding: 0px;
-}*/
+	.menu-item ul {
+		background: #fff;
+		font-size: 13px;
+		line-height: 30px;
+		height: 30px; /*Collapses the menu*/
+		list-style-type: none;
+		overflow: hidden;
+		padding: 0px;
+	}
 
 	.main-navigation ul ul {
 		background: transparent;
 		box-shadow: none;
 		float: none;
-		height: 0px;
+		height: 30px;
 		list-style-type: none;
 		overflow: hidden;
 		padding: 0;
