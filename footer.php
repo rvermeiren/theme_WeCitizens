@@ -23,152 +23,182 @@
 
 		<div class="wrap">
 
-			<table class="table-footer" border="0"> <!-- FAIRE EN SORTE QUE CA SOIT CONTENU DANS LA LARGEUR DU CONTENT -->
-				<tbody class="tbody-footer">
-					<tr>
-						<td class="td-footer">  
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a title="Votre collaboration" href="/?page_id=35">
-					      		<img class=" size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Faites un don" width="59" height="53" />
-					      		<br>Faites un don
-								</a>
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a title="Doe een gift" href="/?page_id=8398">
-					      		<img class=size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Doe een gift" width="59" height="53" />
-							    <br>Doe een gift
-							 	 </a>  
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a title="Votre collaboration" href="/?page_id=8399">
-					      		<img class=size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Faites un don" width="59" height="53" />
-							    <br>Donate now
-							  	</a>    
-							<?php endif; ?>-->
-						</td>
-						<td class="td-footer">  
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a href="/?page_id=8381">
-								<img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/panel.jpg" alt="Participez à nos panels" width="59" height="53" />
+			<div class="footer-container">
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a title="Votre collaboration" href="/?page_id=35">
+							<div class="footerbutton">
+			      				<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Faites un don" width="59" height="53" />
+			      				<br>Faites un don
+			      		</div>
+						</a>
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a title="Doe een gift" href="/?page_id=8398">
+							<div class="footerbutton">
+				      		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Doe een gift" width="59" height="53" />
+								<br>Doe een gift
+							</div>
+					 	 </a>  
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a title="Votre collaboration" href="/?page_id=8399">
+			      		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/don.jpg" alt="Faites un don" width="59" height="53" />
+					    <br>Donate now
+					  	</a>    
+					<?php endif; ?>-->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a href="/?page_id=8381">
+							<div class="footerbutton">
+								<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/panel.jpg" alt="Participez à nos panels" width="59" height="53" />
 								<br>Participez aux panels
-								</a> 
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=8380">  
-								<img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/panel.jpg" alt="Neem deel aan onze opiniepanels" width="59" height="53" />
+							</div>
+						</a> 
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=8380"> 
+							<div class="footerbutton"> 
+								<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/panel.jpg" alt="Neem deel aan onze opiniepanels" width="59" height="53" />
 								<br>Neem deel aan onze opiniepanels
-								</a>   
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?> 
-							<a href="/?page_id=8378">  
-								<div class="footerbutton">
-							    <span class="footerbutton"><img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/panel.jpg" alt="Participez à nos panels" width="59" height="53" />
-							    <br>Participate to our panels
-							</a>   
-							<?php endif; ?> -->  
-						</td>
-						<td class="td-footer">  
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a href="/?page_id=8618">	
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Soutenez une campagne" width="59" height="53" />
-						        <br>Soutenez une campagne
-						  		</a>
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=9443">
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Steun een campagne" width="59" height="53" />
-						        <br>Steun een campagne 
-							  	</a>  
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a href="/?page_id=8618">
-						        <img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Soutenez une campagne" width="59" height="53" />
-						        <br>Support our campaignes
-								</a>  
-							<?php endif; ?> -->
-						</td>
-						<td class="td-footer">  
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a href="/?page_id=568">
-						      	 <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Souscrivez à notre newsletter" width="59" height="53" />
-						      	 <br>Souscrivez à notre newsletter
-								</a>
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=8400">
-					      	 	<img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Schrijf u in op onze nieuwsbrief" width="59" height="53" />
-					      	 	<br>Schrijf u in op onze nieuwsbrief 
-							 	</a>        
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a href="/?page_id=8401">
-						      	 <img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Souscrivez à notre newsletter" width="59" height="53" />
-						      	 <br>Subscribe to our newsletter
-								</a>
-							<?php endif; ?>-->
-						</td>
-					</tr>
-					<tr>
-						<td class="td-footer">
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a href="/?page_id=1308">	
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Répertoire politique" width="59" height="53" />
-						        <br>Répertoire Politique<br><small>S'informer sur un acteur politique</small>
-							 	</a>
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=1311">
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Politieke Databank" width="59" height="53" />
-						        <br>Politieke Databank<br><small>Informatie inwinnen over een politicus</small>
-								</a>
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a href="/?page_id=1313">
-						        <img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Répertoire politique" width="59" height="53" />
-						        <br>Political Directory<br><small>Get info about a political actor</small>
-								</a>
-							<?php endif; ?>-->
-						</td>
-						<td class="td-footer">
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>	
-							 	<a href="/?page_id=24">
-								<img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/gps.jpg" alt="GPS électoral" width="59" height="53" />
-						        <br>GPS électoral<br><small>Qui pense comme vous?</small>
-								</a>
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=272">
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/gps.jpg" alt="Kieswijzer" width="59" height="53" />
-						        <br>Kieswijzer<br><small>Wie heeft dezelfde opvattingen als u?</small>
-								</a>
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a href="/?page_id=1079">
-						        <img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/gps.jpg" alt="GPS électoral" width="59" height="53" />
-						        <br>Electoral GPS<br><small>Who think like you?</small>
-								</a>
-							<?php endif; ?> -->
-						</td>
-						<td class="td-footer">
-							<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
-								<a href="/?page_id=8311">
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/screening.jpg" alt="Radioscopies politiques" width="59" height="53" /><br>Radioscopies politiques<br><small>Qui pense quoi?</small>
-								</a> 
-							<?php endif; ?>
-							<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
-								<a href="/?page_id=8310">
-						        <img class="size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/screening.jpg" alt="Politieke doorlichtingen" width="59" height="53" /><br>Politieke doorlichtingen<br><small>Wie denkt wat?</small>
-								</a>  
-							<?php endif; ?>
-							<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-								<a href="/?page_id=#">
-						        <img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/screening.jpg" alt="Political screening" width="59" height="53" /><br>Political screening<br><small>Who thinks what?</small>
-								</a>
-							<?php endif; ?>   -->
-						</td>
-					</tr>
-				</tbody>
-			</table>
+							</div>
+						</a>   
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?> 
+					<a href="/?page_id=8378">  
+						<div class="footerbutton">
+					    <span class="aligncenter footerbutton"><img class="size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/panel.jpg" alt="Participez à nos panels" width="59" height="53" />
+					    <br>Participate to our panels
+					</a>   
+					<?php endif; ?> -->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a href="/?page_id=8618">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Soutenez une campagne" width="59" height="53" />
+				        		<br>Soutenez une campagne
+				        	</div>
+				  		</a>
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=9443">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Steun een campagne" width="59" height="53" />
+				        		<br>Steun een campagne 
+				        	</div>
+					  	</a>  
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a href="/?page_id=8618">
+				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/campagne.jpg" alt="Soutenez une campagne" width="59" height="53" />
+				        <br>Support our campaignes
+						</a>  
+					<?php endif; ?> -->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a href="/?page_id=568">
+							<div class="footerbutton">
+				      		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Souscrivez à notre newsletter" width="59" height="53" />
+				      	 	<br>Souscrivez à notre newsletter
+				      	 </div>
+						</a>
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=8400">
+							<div class="footerbutton">
+			      	 		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Schrijf u in op onze nieuwsbrief" width="59" height="53" />
+			      	 		<br>Schrijf u in op onze nieuwsbrief 
+			      	 	</div>
+					 	</a>        
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a href="/?page_id=8401">
+				      	 <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/newsletter.jpg" alt="Souscrivez à notre newsletter" width="59" height="53" />
+				      	 <br>Subscribe to our newsletter
+						</a>
+					<?php endif; ?>-->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a href="/?page_id=1308">	
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Répertoire politique" width="59" height="53" />
+				       		<br>Répertoire Politique<br><small>S'informer sur un acteur politique</small>
+				       	</div>
+					 	</a>
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=1311">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Politieke Databank" width="59" height="53" />
+				        		<br>Politieke Databank<br><small>Informatie inwinnen over een politicus</small>
+				        	</div>
+						</a>
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a href="/?page_id=1313">
+				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/reppol.jpg" alt="Répertoire politique" width="59" height="53" />
+				        <br>Political Directory<br><small>Get info about a political actor</small>
+						</a>
+					<?php endif; ?>-->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>	
+					 	<a href="/?page_id=24">
+					 		<div class="footerbutton">
+								<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/gps.jpg" alt="GPS électoral" width="59" height="53" />
+				       	 	<br>GPS électoral<br><small>Qui pense comme vous?</small>
+				       	 </div>
+						</a>
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=272">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/gps.jpg" alt="Kieswijzer" width="59" height="53" />
+				        		<br>Kieswijzer<br><small>Wie heeft dezelfde opvattingen als u?</small>
+				        	</div>
+						</a>
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a href="/?page_id=1079">
+				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/gps.jpg" alt="GPS électoral" width="59" height="53" />
+				        <br>Electoral GPS<br><small>Who think like you?</small>
+						</a>
+					<?php endif; ?> -->
+				</div>
+
+				<div class="div-footer">
+					<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+						<a href="/?page_id=8311">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/screening.jpg" alt="Radioscopies politiques" width="59" height="53" /><br>Radioscopies politiques<br><small>Qui pense quoi?</small>
+				        	</div>
+						</a> 
+					<?php endif; ?>
+					<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
+						<a href="/?page_id=8310">
+							<div class="footerbutton">
+				        		<img class="aligncenter size-full wp-image-8172" src="http://www.wecitizens.be/wp-content/uploads/screening.jpg" alt="Politieke doorlichtingen" width="59" height="53" /><br>Politieke doorlichtingen<br><small>Wie denkt wat?</small>
+				        	</div>
+						</a>  
+					<?php endif; ?>
+					<!--<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
+						<a href="/?page_id=#">
+				        <img class="aligncenter size-full wp-image-8172" src="http://dev.wecitizens.be/wp-content/uploads/screening.jpg" alt="Political screening" width="59" height="53" /><br>Political screening<br><small>Who thinks what?</small>
+						</a>
+					<?php endif; ?>   -->
+				</div>
+
+			</div>
 
 
 			<?php if ( is_active_sidebar( 'sidebar-2' ) ) { ?>
