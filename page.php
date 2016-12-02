@@ -28,37 +28,10 @@ get_header(); ?>
 		</main><!-- #main -->
 
 		<!-- USER CASES -->
+		<!-- French -->
+		<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
 		<div class="uc-container">
-			<div class="div-uc">  
-				<!-- English -->
-
-				<?php if (ICL_LANGUAGE_CODE == 'en') : ?>
-					<h2>What you need to know about WeCitizens:</h2>
-					<details>
-					  <summary>You want to locate politicians on the political spectrum</summary>
-					  <p>
-					  <ul>
-					  <li>
-					  </ul>
-					  </p>
-					</details>
-					<details>
-					  <summary>Get insight about political and fiscal issues</summary>
-					  <p>Text you see after expansion.</p>
-					</details>
-					<details>
-					  <summary>The best investment you can do: donate</summary>
-					  <p>Text you see after expansion.</p>
-					</details>
-					<details>
-					  <summary>You can contribute to transparency in public management</summary>
-					  <p>Text you see after expansion.</p>
-					</details>
-				<?php endif; ?>
-
-				<!-- French -->
-
-				<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
+			<div class="div-uc"> 
 					<h2>Ce que vous devez savoir sur NousCitoyens:</h2>
 					<details>
 					  <summary>En savoir plus sur la sphère politique ? Essayez nos outils !</summary>
@@ -98,12 +71,11 @@ get_header(); ?>
 					  </ul>
 					  <a class="expandbutton" title="Questions" href="http://www.wecitizens.be/fr/">Voir la liste des question politiques</a>
 					</details>
-				<?php endif; ?>
-
-				<!-- Ne -->
-				
 			</div>
 		</div>
+		<?php endif; ?>
+		<!-- Ne -->
+
 		<!-- END OF USER CASES -->
 	</div><!-- #primary -->
 
