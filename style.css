@@ -4614,21 +4614,21 @@ iframe[src*='bandcamp'] {
 		text-align: left;
 	}
 
-	.menu-item ul {
+	/*.menu-item ul {
 		background: #fff;
 		font-size: 13px;
 		line-height: 30px;
-		height: 30px; /*Collapses the menu*/
-		list-style-type: none;
+		height: 0px; /*Collapses the menu*/*/
+		/*list-style-type: none;
 		overflow: hidden;
 		padding: 0px;
-	}
+	}*/
 
 	.main-navigation ul ul {
 		background: transparent;
 		box-shadow: none;
 		float: none;
-		height: 30px;
+		height: 0px;
 		list-style-type: none;
 		overflow: hidden;
 		padding: 0;
