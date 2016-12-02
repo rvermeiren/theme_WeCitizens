@@ -872,7 +872,7 @@ a:active {
 
 #social-icons{
 	position: relative;
-	top : -100px;
+	top : -50px;
 	/*bottom: 50px;*/
 	right: 10px;
 	width: auto;
@@ -884,7 +884,7 @@ a:active {
 #languages {
 	position:relative;
 	margin : 15px;
-	top: -50px;
+	top: 0px;
 	right:0;
 	width:auto;
 	height:auto;
@@ -895,15 +895,7 @@ a:active {
 }
 #languages ul { list-style:none; margin:0; padding:0; }
 #languages ul li { display:inline-block; margin: 0; padding-right: 0;}
-#languages ul li a { 
-	padding: 0em 0.5em 0em 0.5em;
-	margin-left:1em;
-	text-decoration: none;
-	background-color: rgba(255, 255, 255, 0.95);
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-	clear:both;
-	overflow:hidden;
-}
+#languages ul li a { outline:none; border:none; margin-left:1em; }
 #languages ul li img { margin:10px; padding:0; vertical-align:middle; width: 25px; height: auto;}
 
 /*end we citizens specifics css*/
@@ -915,7 +907,7 @@ a:active {
 }
 
 #masthead .site-branding {
-	padding: 105px 0 0px;
+	padding: 105px 0 30px;
 }
 
 #masthead .site-title {
@@ -4561,7 +4553,7 @@ iframe[src*='bandcamp'] {
 
 	/* Header */
 	#masthead .site-branding {
-		padding: 58px 0 0px;
+		padding: 58px 0 20px;
 	}
 	/* Mobile menu toggle */
 	.main-navigation {
