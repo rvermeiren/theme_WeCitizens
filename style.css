@@ -1488,7 +1488,7 @@ body:not(.single) .format-chat:after,
 	width: 150px;
 }
 
-body:not(.single) .format-standard:before,
+/*body:not(.single) .format-standard:before,
 body:not(.single) .format-chat:before,
 .search .type-page:before {
 	top: 0;
@@ -1506,7 +1506,7 @@ body:not(.single) .format-chat:after,
 	-webkit-transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
-}
+}*/
 
 body:not(.single) .format-standard .entry-header,
 body:not(.single) .format-chat .entry-header,

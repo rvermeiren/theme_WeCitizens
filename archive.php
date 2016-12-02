@@ -6,7 +6,14 @@ get_header(); ?>
 	<div id="primary" class="archives-container">
 		<main id="main" class="site-main" role="main">
 			<div class="archives-uc">
-				<?php the_post(); ?>
+				<?php
+				while ( have_posts() ) : the_post();
+
+					get_template_part( 'template-parts/content', 'page' );
+
+
+				endwhile; // End of the loop.
+				?>
 
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 
