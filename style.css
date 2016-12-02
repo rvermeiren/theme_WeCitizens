@@ -4614,17 +4614,17 @@ iframe[src*='bandcamp'] {
 		text-align: left;
 	}
 
-	/*.menu-item ul {
+	.menu-item ul {
 		background: #fff;
 		font-size: 13px;
-		line-height: 30px;
-		height: 0px; /*Collapses the menu*/*/
-		/*list-style-type: none;
+		line-height: 0px;
+		height: 0px; /*Collapses the menu*/
+		list-style-type: none;
 		overflow: hidden;
 		padding: 0px;
-	}*/
+	}
 
-	.main-navigation ul ul {
+	/*.main-navigation ul ul {
 		background: transparent;
 		box-shadow: none;
 		float: none;
@@ -4636,12 +4636,12 @@ iframe[src*='bandcamp'] {
 		position: static;
 
 		/*Animation*/
-  		-webkit-transition: height 1s ease;
+  		/*-webkit-transition: height 1s ease;
      	-moz-transition: height 1s ease;
        	-o-transition: height 1s ease;
       	-ms-transition: height 1s ease;
         transition: height 1s ease;
-	}
+	}*/
 
 	.main-navigation ul ul a {
 		background-color: transparent;
