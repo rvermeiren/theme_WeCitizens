@@ -1,4 +1,6 @@
-The folder Scratchpad is necessary for the proper functioning of this theme.
+## Requirements
+
+The folder Scratchpad (https://wordpress.com/themes/scratchpad/) is necessary for the proper functioning of this theme.
 
 ## 404.php
 
