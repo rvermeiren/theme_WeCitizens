@@ -1488,7 +1488,7 @@ body:not(.single) .format-chat:after,
 	width: 150px;
 }
 
-body:not(.single) .format-standard:before,
+/*body:not(.single) .format-standard:before,
 body:not(.single) .format-chat:before,
 .search .type-page:before {
 	top: 0;
@@ -1506,7 +1506,7 @@ body:not(.single) .format-chat:after,
 	-webkit-transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
-}
+}*/
 
 body:not(.single) .format-standard .entry-header,
 body:not(.single) .format-chat .entry-header,
@@ -3695,7 +3695,7 @@ iframe[src*='bandcamp'] {
 
 /*Widget - WeCitizens*/
 .widget_button_we{
-	background-color: #f44336; /* Red */
+	background-color: #AA131F; /* Red */
     border: none;
 	width: 90%;
     color: white;
@@ -4614,17 +4614,17 @@ iframe[src*='bandcamp'] {
 		text-align: left;
 	}
 
-	/*.menu-item ul {
+	.menu-item ul {
 		background: #fff;
 		font-size: 13px;
-		line-height: 30px;
-		height: 0px; /*Collapses the menu*/*/
-		/*list-style-type: none;
+		line-height: 0px;
+		height: 0px; /*Collapses the menu*/
+		list-style-type: none;
 		overflow: hidden;
 		padding: 0px;
-	}*/
+	}
 
-	.main-navigation ul ul {
+	/*.main-navigation ul ul {
 		background: transparent;
 		box-shadow: none;
 		float: none;
@@ -4636,12 +4636,12 @@ iframe[src*='bandcamp'] {
 		position: static;
 
 		/*Animation*/
-  		-webkit-transition: height 1s ease;
+  		/*-webkit-transition: height 1s ease;
      	-moz-transition: height 1s ease;
        	-o-transition: height 1s ease;
       	-ms-transition: height 1s ease;
         transition: height 1s ease;
-	}
+	}*/
 
 	.main-navigation ul ul a {
 		background-color: transparent;

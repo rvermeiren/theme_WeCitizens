@@ -49,7 +49,10 @@
 						<?php if (ICL_LANGUAGE_CODE == 'nl') echo '<img src="'.esc_url( get_site_url() ).'/wp-content/themes/wecitizens_new/images/header-nl.jpg" width="100%" height="auto">'; ?>
 					</a>
 					<div id="social-icons">
-						<a href="https://www.facebook.com/wecitizens.be">
+						<a target="_blank" href="https://twitter.com/NousCitoyensBE">
+							<img src="<?php echo esc_url( get_site_url() ); ?>/wp-content/themes/wecitizens_new/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png" width="30px" height="auto">
+						</a>
+						<a target="_blank" href="https://www.facebook.com/wecitizens.be">
 							<img src="<?php echo esc_url( get_site_url() ); ?>/wp-content/themes/wecitizens_new/images/fb_icon/FB-logo-50.png" width="30px" height="auto">
 						</a>
 					</div>
