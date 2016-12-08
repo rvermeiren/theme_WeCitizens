@@ -2781,6 +2781,16 @@ a.narrationencart:hover{
 	color: white;
 }
 
+#content_en{
+  width:100%;
+}
+#droite, #middle, #gauche {
+    display: inline-block;
+    vertical-align: top;
+	text-align: center;
+	width:33%;
+}
+
 /*--------------------------------------------------------------
 10.16 User cases wecitizens
 --------------------------------------------------------------*/
@@ -2829,7 +2839,7 @@ a.expandlink {
 /*--------------------------------------------------------------
 10.17 Mail form fields
 --------------------------------------------------------------*/
-
+/*
 #mymail-email-0 {
 	font-size: 1em !important;
 	height: 40px !important;
@@ -2866,7 +2876,7 @@ a.expandlink {
 
 .mymail-form-0 .submit-button {
 	margin:auto !important;
-}
+}*/
 
 /*--------------------------------------------------------------
 10.18 Archives wecitizens
@@ -4541,7 +4551,27 @@ iframe[src*='bandcamp'] {
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1200px) {
 	.wrap {
-		padding: 0 30px;
+		padding: 0 20px;
+	}
+
+	#content_en{
+	  width:100%;
+	}
+	#droite, #middle, #gauche {
+		display: block;
+		vertical-align: top;
+		text-align: center;
+		font-size: 1em;
+		width:100%;
+		border: 1px solid;
+		border-radius: 8px;
+		border-color: #b8b8b8;
+		margin-bottom: 4px;
+	}
+
+	#image_acc_en{
+		width: 80%;
+		height: auto;
 	}
 }
 
@@ -4757,6 +4787,7 @@ iframe[src*='bandcamp'] {
 		max-width: 100%;
 		width: 500px;
 	}
+
 
 }
 
