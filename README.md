@@ -1,6 +1,6 @@
 ## Requirements
 
-The folder Scratchpad (https://wordpress.com/themes/scratchpad/) is necessary for the proper functioning of this theme.
+The theme Scratchpad (https://wordpress.com/themes/scratchpad/) is necessary for the proper functioning of this theme. This theme is a child of Scratchpad and some functions depends on it.
 
 ## 404.php
 
@@ -16,7 +16,7 @@ The footer of each page
 
 ## functions.php
 
-Contains the different php functions (related to word press comments + logo for login)
+Contains the different php functions (related to wordpress comments + logo for login)
 
 ## header.php
 
@@ -26,12 +26,6 @@ Contains the php of the menu, the header image, the social network's logos and t
 
 Contains the php of most of pages. It also contains the footer with the user cases.
 
-## PageOurCampaignsPAN.php
-
-The page for the campaigns
-
 ## style.css
 
 Style of the website. A table of contents is available at the beginning of the file.
-
-

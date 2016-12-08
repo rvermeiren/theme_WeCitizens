@@ -27,17 +27,17 @@ get_header(); ?>
 
 		</main><!-- #main -->
 
-		<!-- USER CASES -->
+		<!-- ENCARTS -->
 		<!-- French -->
 		<?php if (ICL_LANGUAGE_CODE == 'fr') : ?>
 		<div class="uc-container">
-			<div class="div-uc"> 
+			<div class="div-uc">
 					<h2>Ce que vous devez savoir sur NousCitoyens:</h2>
 					<details>
 					  <summary>En savoir plus sur la sphère politique ? Essayez nos outils !</summary>
 					  <ul class="expand">
 					  <li>Vous voulez vous informer sur un acteur politique en particulier ? Voyez notre <a class="expandlink" title="Répertoire Politique" href="/?page_id=1308">Répertoire Politique</a>.
-					  <li>Vous voulez identifier les hommes politiques favorables à une question précise ? Faites une <a class="expandlink" title="Répertoire Politique" href="/?page_id=1308">recherche avancée</a> dans le Répertoire Politique. 
+					  <li>Vous voulez identifier les hommes politiques favorables à une question précise ? Faites une <a class="expandlink" title="Répertoire Politique" href="/?page_id=1308">recherche avancée</a> dans le Répertoire Politique.
 					  <li>Lors des élections, voulez savoir qui pense comme vous ? Testez notre <a class="expandlink" title="GPS électoral" href="/?page_id=8258">GPS Électoral.</a>
 					  </ul>
 					  <a class="expandbutton" title="Outils" href="/?page_id=8258">Voir la liste des outils</a>
@@ -56,7 +56,7 @@ get_header(); ?>
 					  <li>Faites-vous entendre : participez et soutenez les campagnes.
 					  Vous ne trouvez pas la question politique qui vous tient à cœur ? Commander un sondage des
 					  acteurs politiques.
-					  <li>Vous avez un dossier sur un cas de gestion publique et vous voudriez donner l’alerte ? Prenez contact avec notre rédacteur en chef <a class="expandlink" title="Mail" href="mailto:pinon@wecitizens.be">(pinon@wecitizens.be)</a>. 
+					  <li>Vous avez un dossier sur un cas de gestion publique et vous voudriez donner l’alerte ? Prenez contact avec notre rédacteur en chef <a class="expandlink" title="Mail" href="mailto:pinon@wecitizens.be">(pinon@wecitizens.be)</a>.
 					  <li>Vous possédez des informations qui manquent dans le Répertoire Politique ? Signalez-le au rédacteur en chef ou via le formulaire anonyme que vous trouvez au pied de chaque profil personnel.
 					  </ul>
 					  <!-- LINK TO DO -->
@@ -66,7 +66,7 @@ get_header(); ?>
 					  <summary>Enfin un observatoire citoyen de la gestion publique en Belgique. </summary>
 					  <ul class="expand">
 					  <li>Nous Citoyens se profile observatoire de la gestion publique
-					  <li>Nous publions une revue trimestrielle des réformes fiscales, le <a class="expandlink" title="FiscoFlash" href="/?s=fiscoflash">FiscoFlash</a>.  
+					  <li>Nous publions une revue trimestrielle des réformes fiscales, le <a class="expandlink" title="FiscoFlash" href="/?s=fiscoflash">FiscoFlash</a>.
 					  <li>Dans nos newsletters nous livrons des <a class="expandlink" title="GPS électoral" href="/?page_id=24">analyses politiques</a>.
 					  <li>Nous avons le projet de publier des articles sur des cas intéressants de gestion publique.
 					  </ul>
@@ -77,7 +77,7 @@ get_header(); ?>
 		<!-- Dutch -->
 		<?php if (ICL_LANGUAGE_CODE == 'nl') : ?>
 		<div class="uc-container">
-			<div class="div-uc"> 
+			<div class="div-uc">
 					<h2>Wat u moet weten over WijBurgers:</h2>
 					<details>
 					  <summary>Meer weten over de politici? Probeer onze tools! </summary>
@@ -91,7 +91,7 @@ get_header(); ?>
 					<details>
 					  <summary>Doe je rendabelste investering. Doe een gift.</summary>
 					  <ul class="expand">
-					  <li>Jouw gift, lidgeld of jouw vrijwilligerswerk draagt bij tot een beter bestuur van de staat. Wanneer de beleidsverantwoor­delijken vaststellen dat we ons voor hun werk interesseren, geven ze het beste van zichzelf. 
+					  <li>Jouw gift, lidgeld of jouw vrijwilligerswerk draagt bij tot een beter bestuur van de staat. Wanneer de beleidsverantwoor­delijken vaststellen dat we ons voor hun werk interesseren, geven ze het beste van zichzelf.
 					  <li>Blijf op de hoogte van onze acties: schrijf je in op de <a class="expandlink" title="nieuwsbrief" href="/?page_id=8400">nieuwsbrief</a>.
 					  </ul>
 					  <a class="expandbutton" title="Gift" href="/?page_id=8398">Ik doe nu een gift.</a>
@@ -101,8 +101,8 @@ get_header(); ?>
 					  <ul class="expand">
 					  <li>Laat van je horen: neem deel aan en steun de <a class="expandlink" title="Campagnes" href="/?page_id=9443">campagnes</a>.
 					  <li>Staat het politiek onderwerp dat je aan het hart ligt, niet in onze lijst? Bestel een peiling van de politici.
-					  <li>Heb je een dossier over openbaar bestuur dat je wil melden? Neem contact op met onze hoofdredacteur<a class="expandlink" title="Mail" href="mailto:pinon@wecitizens.be">(pinon@wecitizens.be)</a>. 
-					  <li>Beschik je over gegevens die in de Politieke Databank ontbreken? Meld het bij onze hoofdredacteur of via het anonieme formulier dat je onderaan ieder persoonlijk profiel vindt. 
+					  <li>Heb je een dossier over openbaar bestuur dat je wil melden? Neem contact op met onze hoofdredacteur<a class="expandlink" title="Mail" href="mailto:pinon@wecitizens.be">(pinon@wecitizens.be)</a>.
+					  <li>Beschik je over gegevens die in de Politieke Databank ontbreken? Meld het bij onze hoofdredacteur of via het anonieme formulier dat je onderaan ieder persoonlijk profiel vindt.
 					  </ul>
 					  <!-- LINK TO DO -->
 					  <a class="expandbutton" title="Vragen" href="">Bekijk de lijst met politieke vragen.</a>
@@ -110,17 +110,17 @@ get_header(); ?>
 					<details>
 					  <summary>Eindelijk een burgerobservatorium van het openbaar bestuur in België. </summary>
 					  <ul class="expand">
-					  <li>WijBurgers profileert zich als een observatorium van het openbaar beheer. 
-					  <li>We publiceren een trimestrieel tijdschrift met fiscale hervormingen, de <a class="expandlink" title="FiscoFlash" href="/?s=fiscoflash">FiscoFlash</a>. 
+					  <li>WijBurgers profileert zich als een observatorium van het openbaar beheer.
+					  <li>We publiceren een trimestrieel tijdschrift met fiscale hervormingen, de <a class="expandlink" title="FiscoFlash" href="/?s=fiscoflash">FiscoFlash</a>.
 					  <li>In onze nieuwsbrieven brengen we politieke analyses naar voor.
-					  <li>We hebben het voornemen om artikels over interessante gevallen van openbaar bestuur te publiceren. 
+					  <li>We hebben het voornemen om artikels over interessante gevallen van openbaar bestuur te publiceren.
 					  </ul>
 					</details>
 			</div>
 		</div>
 		<?php endif; ?>
 
-		<!-- END OF USER CASES -->
+		<!-- END OF ENCARTS -->
 	</div><!-- #primary -->
 
 <?php

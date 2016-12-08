@@ -1,5 +1,8 @@
 /*
 Theme Name: We Citizens New Theme
+Author: Xavier Schul, Yvhan Smal, Rémy Vermeiren
+Organisation : UCL
+Group: 10
 Template: scratchpad
 	Theme Name: Scratchpad
 	Theme URI: https://wordpress.com/themes/scratchpad/
@@ -2190,7 +2193,7 @@ body:not(.single) .format-video .entry-meta a {
 
 .page #primary article.page .entry-content,
 .page #primary article.page .entry-footer {
-	padding: 0 35px;
+	padding: 0 45px;
 }
 
 .single #primary article.post .tags-links,
